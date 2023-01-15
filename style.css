@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+ h2{
+    color: grey;
+    justify-content: center;
+    font-size: 6em;
+    font-weight: 600;
+    letter-spacing: 10px;
+    cursor: pointer;
+    margin-top: 300px;
+}
+
+ h2 span{
+    transition: 0.8s;
+
+}
+
+ h2:hover .first{
+    margin-right: 40px;
+  
+}
+ h2:hover .second{
+    margin-top: 40px;
+ }
+ h2:hover .third{
+    margin-bottom: 40px;
+ }
+ h2:hover .fourth{
+    margin-bottom: 40px;
+ }
+ h2:hover .fivth{
+    margin-top: 40px;
+ }
+ h2:hover .sixth{
+    margin-left: 40px;
+ }
+ h2:hover .first{
+    color: white;
+    text-shadow: 0 0 10px rgb(89, 0, 255),
+    0 0 20px rgb(64, 0, 255),
+    0 0 40px rgb(60, 0, 255),
+    0 0 120px rgb(38, 0, 255),
+    0 0 150px rgb(106, 0, 255);
+}
+h2:hover .second{
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 0, 55),
+    0 0 20px rgb(255, 0, 106),
+    0 0 40px rgb(255, 0, 68),
+    0 0 120px rgb(255, 0, 102),
+    0 0 150px rgb(255, 0, 106);
+}
+h2:hover .third{
+    color: white;
+    text-shadow: 0 0 10px rgb(221, 255, 0),
+    0 0 20px rgb(221, 255, 0),
+    0 0 40px rgb(225, 255, 0),
+    0 0 120px rgb(217, 255, 0),
+    0 0 150px rgb(221, 255, 0);
+}
+h2:hover .fourth{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 136, 255),
+    0 0 20px rgb(0, 145, 255),
+    0 0 40px rgb(0, 157, 255),
+    0 0 120px rgb(0, 140, 255),
+    0 0 150px rgb(0, 153, 255);
+}
+h2:hover .fivth{
+    color: white;
+    text-shadow: 0 0 10px rgb(12, 234, 34),
+    0 0 20px rgb(9, 241, 75),
+    0 0 40px rgb(85, 242, 6),
+    0 0 120px rgb(71, 246, 8),
+    0 0 150px rgb(80, 247, 3);
+}
+h2:hover .sixth{
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 25, 0),
+    0 0 20px rgb(255, 38, 0),
+    0 0 40px rgb(255, 38, 0),
+    0 0 120px rgb(255, 51, 0),
+    0 0 150px rgb(255, 34, 0);
+}
+
+
+
